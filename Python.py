@@ -1,13 +1,6 @@
 import unittest
 import requests
 
-# Try to import ChessRules, handle ModuleNotFoundError
-try:
-    import ChessRules
-except ModuleNotFoundError:
-    print("Error: The 'ChessRules' module is not found. Make sure it is in the same directory.")
-    exit(1)
-
 class TestATGWorldWebsite(unittest.TestCase):
     
     def test_website_availability(self):
